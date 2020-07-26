@@ -42,7 +42,8 @@ a{
 }
 .intro{
     color: lightgoldenrodyellow;
-    visibility: hidden;
+    display: none;
+    z-index: 5;
 }
 .social{
    margin: 0%;
@@ -66,6 +67,7 @@ a:active{
     color:whitesmoke;
 }
 .banner-area{
+    
     position: relative;
     background-image: url(swati_banner.png)  ;
     width:100%;
@@ -98,7 +100,7 @@ h1{
 }
 p{
     font-size:24px;
-    line-height: 50px;
+    line-height: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .skillist{
@@ -128,8 +130,32 @@ html{
       background-image: none;
     }
     .intro{
-       visibility: visible;
+        color: black;
+       display: block;
        height: max-content;
        width: max-content;
     }
+    .nav-bar{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .skillist{
+        font-size: 16px;
+    }
+    .about-area, .port-area,
+ .services-area, .contact-area{
+     height: 100vh;
+ }
+ #project{
+     list-style: none;
+
+ }
+ #project a{
+     text-decoration: bold underline;
+ }
   }
