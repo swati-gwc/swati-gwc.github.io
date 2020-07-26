@@ -132,14 +132,15 @@ html{
     .intro{
         color: black;
        display: block;
-       height: max-content;
-       width: max-content;
+       height: 100vh;
+       width: 100vw;
+       font-family: cursive;
     }
     .nav-bar{
         font-size: 18px;
     }
     h1{
-        font-size: 20px;
+        font-size: 22px;
     }
     p{
         font-size: 16px;
@@ -147,12 +148,9 @@ html{
     .skillist{
         font-size: 16px;
     }
-    .about-area, .port-area,
- .services-area, .contact-area{
-     height: 100vh;
- }
  #project{
      list-style: none;
+     line-height: normal;
 
  }
  #project a{
