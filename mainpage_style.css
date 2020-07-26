@@ -127,8 +127,9 @@ html{
 
 @media screen and (max-width: 992px) {
     .banner-area {
+    background-image: url(swati_mobile_banner1.png);
       background-color: lightgoldenrodyellow;
-      background-image: url(swati_mobile_banner1.png);
+      
     }
    /* .intro{
         color: black;
