@@ -127,7 +127,7 @@ html{
 
 @media screen and (max-width: 992px) {
     .banner-area {
-    background-image: url(swati_mobile_banner1.png);
+    background-image: url(swati_mobile_banner2.png);
       background-color: lightgoldenrodyellow;
       
     }
@@ -140,7 +140,8 @@ html{
        font-family: cursive;
     }*/
     .nav-bar{
-        font-size: 18px;
+        font-size: 10px;
+        width: 100% fit-content;
     }
     h1{
         font-size: 22px;
