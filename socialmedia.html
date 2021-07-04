@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Swati Tripathi's Portfolio</title>
+    <link rel="icon" href="./assets/swati_memoji_hi.jpeg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          /* background-color: #FFF8DC; */
+        }
+        
+        /* Float four columns side by side */
+        .column {
+          float: left;
+          width: 25%;
+          padding: 0 10px;
+        }
+        
+        /* Remove extra left and right margins, due to padding */
+        .row {margin: 0;}
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Responsive columns */
+        @media screen and (max-width: 600px) {
+          .column {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+          }
+        }
+        
+        /* Style the counter cards */
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+          padding: 16px;
+          text-align: center;
+          background: linear-gradient(to bottom left, #FAD5A5 40%, #FFDEAD 60%);
+          height: 200px;
+          margin-top: 15px;
+          border-radius: 25px;
+          overflow: hidden;
+        }
+        .icon{
+            font-size: 30px;
+        }
+        a{
+            list-style: none;
+            text-decoration: none;
+        }
+        .card:hover{
+          background: linear-gradient(to bottom left, #E2DFD2 40%, #C2B280 100%);
+          
+        }
+        </style>
+    <link rel="stylesheet" href="sidebarStyle.css">
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="sidebarScript.js"></script>    
+</head>
+<body>
+  <div class="wui-side-menu open pinned" data-wui-theme="dark">
+    <div class="wui-side-menu-header">
+      <a href="#" class="wui-side-menu-trigger"><i class="fa fa-bars"></i></a>
+      <a href="#" class="wui-side-menu-pin-trigger">
+        <i class="fa fa-thumb-tack"></i>
+      </a>
+    </div>    
+    <div class="user-profile-container">
+      <div class="user-profile-pic"></div>
+    </div>
+    <ul class="wui-side-menu-items">
+      <li>
+        <a href="index.html" class="wui-side-menu-item">
+        <i class="fa fa-home" aria-hidden="true"></i>
+          <span class="box-title">Home</span> 
+        </a>
+      </li>
+      <li>
+        <a href="About.html" class="wui-side-menu-item active">
+          <i class="fa fa-user-circle" aria-hidden="true"></i>
+          <span class="box-title">About</span> 
+        </a>
+      </li>
+      <li>
+        <a href="Projects.html" class="wui-side-menu-item">
+         <i class="fa fa-code" aria-hidden="true"></i>
+          <span class="box-title">Projects</span> 
+        </a>
+      </li>
+      <li>
+        <a href="timeline.html" class="wui-side-menu-item">
+          <i class="fa fa-road" aria-hidden="true"></i>
+          <span class="box-title">Timeline</span> 
+        </a>
+      </li>
+      <li>
+        <a href="socialmedia.html" class="wui-side-menu-item">
+          <i class="fa fa-globe" aria-hidden="true"></i>
+          <span class="box-title">Connect with me</span> 
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+      <div class="wui-content">
+       <div class="wui-content-header">
+      <a href="#" class="wui-side-menu-trigger" id="hamburger"><i class="fa fa-bars"></i></a>
+      <span class="wui-title">Swati's Social Media Accounts</span>
+    </div> 
+        <div class="wui-content-main">
+          
+            <div class="row">
+              <div class="column">
+                <a href="https://www.linkedin.com/in/swati-tripathi-765615187/" target="_blank">
+                <div class="card">
+                  <h3>Linked In</h3>
+                  <p class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></p>
+                  <p>Connect with me here</p>
+                </div>
+                </a>
+              </div>
+            
+              <div class="column">
+                <a href="https://github.com/swati-gwc" target="_blank">
+                <div class="card">
+                  <h3>GitHub</h3>
+                  <p class="icon"><i class="fa fa-github" aria-hidden="true"></i></p>
+                  <p>Check out my projects here</p>
+                </div>
+              </div>
+              
+              <div class="column">
+                <a href="https://www.instagram.com/tulikan_art/?hl=en" target="_blank">
+                <div class="card">
+                  <h3>Instagram</h3>
+                  <p class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></p>
+                  <p>I like to post my drawings here</p>
+                </div>
+            </a>
+              </div>
+              
+              <div class="column">
+                <a href="https://codepen.io/swati_gwc" target="_blank">
+                <div class="card">
+                  <h3>Codepen</h3>
+                  <p class="icon"><i class="fa fa-codepen" aria-hidden="true"></i></p>
+                  <p>Web Dev related work</p>
+                </div>
+            </a>
+              </div>
+
+              <div class="column">
+                <a href="https://swatispeaks.medium.com/" target="_blank">
+                <div class="card">
+                  <h3>Medium</h3>
+                  <p class="icon"><i class="fa fa-medium" aria-hidden="true"></i></p>
+                  <p>My Blogs where I pour my thoughts</p>
+                </div>
+            </a>
+              </div>
+
+              <div class="column">
+                <a href="https://www.youtube.com/channel/UCATB0CTOfwOmLkXhskTLGQA/videos" target="_blank">
+                <div class="card">
+                  <h3>You Tube</h3>
+                  <p class="icon"><i class="fa fa-youtube" aria-hidden="true"></i></i></p>
+                  <p>Sharing my knowledge here. Like share and subscribe.</p>
+                </div>
+            </a>
+              </div>
+
+              <div class="column">
+                <a href="https://twitter.com/SwatiTr06172888
+                " target="_blank">
+                <div class="card">
+                  <h3>Twitter</h3>
+                  <p class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></p>
+                  <p>Check out my tweets</p>
+                </div>
+            </a>
+              </div>
+
+              <div class="column">
+                <a href="https://www.slideshare.net/SwatiTripathi44/presentations" target="_blank">
+                <div class="card">
+                  <h3>Slideshare</h3>
+                  <p class="icon"><i class="fa fa-slideshare" aria-hidden="true"></i></p>
+                  <p>Check my presentations here</p>
+                </div>
+                </a>
+              </div>
+
+              <div class="column">
+                <a  href = "mailto: swatitripathi2000@gmail.com" target="_blank">
+                <div class="card">
+                  <h3>Email Me</h3>
+                  <p class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></p>
+                  <p>You can reach out to me via mail</p>
+                </div>
+                </a>
+              </div>
+
+              <div class="column">
+                <a  href = "https://dev.to/swatitr06172888" target="_blank">
+                <div class="card">
+                  <h3>Dev Community</h3>
+                  <p class="icon"><i class="fa fa-code"></i></p>
+                  <p>Check out my Dev.to profile here</p>
+                </div>
+                </a>
+              </div>
+
+            
+
+            </div>
+            <h3 class="made_by">Made with ♡ by Swati Tripathi</h3>
+        </div>
+      </div>
+      <div class="wui-overlay"></div>
+  
+</body>
+</html>
